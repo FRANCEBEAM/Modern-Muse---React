@@ -10,13 +10,13 @@ function Navbar() {
 
 
   return (
-    <div className='navbar fixed w-full'>
-        <div className='navbar-container flex h-24 items-center justify-between px-4 lg:max-w-[1200px] lg:relative lg:mx-auto'>
-            <h1 className='navbar-logo font-bold text-2xl'>modern muse</h1>
-            <div className='menu-icon absolute right-0 m-4 cursor-pointer lg:hidden' onClick={handleClick}>
+    <div className='navbar fixed w-full z-10'>
+        <div className='navbar-container flex h-24 items-center justify-between px-4 lg:max-w-[1200px] lg:relative lg:mx-auto z-10'>
+            <h1 className='navbar-logo font-bold text-2xl text-white'>modern muse</h1>
+            <div className='menu-icon absolute right-0 m-4 cursor-pointer lg:hidden text-white' onClick={handleClick}>
                 {click ? <FaTimes size={30} /> : <FaBars size={30}/>}
             </div>
-            <ul className={click ? "nav-menu active text-white justify-center absolute text-center top-[96px] bg-[#121212] w-full leading-[60px] transition-all duration-500 left-[0%] lg:bg-[unset] lg:text-black lg:flex lg:justify-end lg:top-0" : "nav-menu items-center text-sm justify-center absolute w-full transition-all duration-500 top-[96px] leading-[60px] left-[-100%] text-center lg:left-[0%] lg:flex lg:justify-end lg:top-0"}>
+            <ul className={click ? "nav-menu active text-white justify-center absolute text-center top-[96px] bg-[#121212] w-full leading-[60px] transition-all duration-500 left-[0%] lg:bg-[unset] lg:text-black lg:flex lg:justify-end lg:top-0" : "nav-menu items-center text-sm text-white justify-center absolute w-full transition-all duration-500 top-[96px] leading-[60px] left-[-100%] text-center lg:left-[0%] lg:flex lg:justify-end lg:top-0"}>
                 <li className='nav-item p-4'>
                     <NavLink to="/">
                         HOME
