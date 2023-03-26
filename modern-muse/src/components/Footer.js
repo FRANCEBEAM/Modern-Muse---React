@@ -69,7 +69,7 @@ function Footer() {
                             <MdEmail size={20} /> <span className='font-bold'>Newsletter</span>
                         </label>
                         <input type="email" className="bg-transparent border-b-[1px] border-white focus:outline-none text-white p-1 flex font-medium w-80" placeholder='Email Address'/>
-                        <button className='bg-[#00A591] font-medium text-[#F0F0F0] p-2 w-20 rounded-md mt-7' type='button'>SEND</button>
+                        <button className='bg-[#00A591] hover:bg-[#00a592be] font-medium text-[#F0F0F0] p-2 w-20 rounded-md mt-7' type='button'>SEND</button>
                     </form>
                 </div>
             </div>
@@ -86,9 +86,15 @@ function Footer() {
                     <p>©2023 modernmuse. All rights reserved.</p>
                 </div>
                 <div className='3row-footer pt-10 flex gap-5 text-white justify-center text-center lg:pt-0'>
-                   <FaFacebook size={30} />
-                   <FaTwitter size={30} />
-                   <FaInstagram size={30} />
+                    <Link to="/">
+                        <FaFacebook size={30} />
+                    </Link>
+                    <Link to="/">
+                        <FaTwitter size={30} />
+                    </Link>
+                    <Link to="/">
+                        <FaInstagram size={30} />
+                    </Link>
                 </div>
             </div>
         </div>  

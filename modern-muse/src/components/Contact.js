@@ -41,24 +41,6 @@ function Contact() {
             </div>
         </div>
         </div>
-        {/* <div className='right-content'>
-            <div className='contacts-container'>
-                <p className='font-bold text-[#0F0F0F] mb-4'>Number: <span className='font-medium text-[#0F0F0F]'>0912345678</span></p>
-                <p className='font-bold text-[#0F0F0F] mb-4'>Email Address: <span className='font-medium text-[#0F0F0F] mb-4'>modernmusedesign@gmail.com</span></p>
-                <p className='font-bold text-[#0F0F0F] mb-4'>Address: <span className='font-medium text-[#0F0F0F]'>123 Main Street, Suite 101, Anytown Makati</span></p>
-            </div>
-            <div className='socials-container flex gap-5'>
-               <Link to="/">
-                    <FaFacebook size={30} />
-               </Link>
-               <Link to="/">
-                    <FaTwitter size={30} />
-               </Link>
-               <Link to="/">
-                    <FaInstagram size={30} />
-               </Link>
-            </div>
-        </div> */}
       </div>
     </div>
   )

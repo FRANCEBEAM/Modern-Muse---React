@@ -74,12 +74,12 @@ export default class PreviousNextMethods extends Component {
           </Slider>
         </div>
 
-          <div className="button-container flex px-4 -z-10 justify-between align-middle m-auto text-center pt-[16em] text-[#F0F0F0] font-semibold text-md tracking-widest items-center text-sm lg:pt-72 xl:pt-96 xl:text-xl">
-              <div className="btn-prev flex button cursor-pointer text-center align-middle xl:gap-5 hover:text-[#ffffffbe]" onClick={this.previous}>
+          <div className="button-container flex px-4 -z-10 justify-between align-middle m-auto text-center pt-[16em] text-[#FFFFFFBE] font-semibold text-md tracking-widest items-center text-sm lg:pt-72 xl:pt-96 xl:text-xl">
+              <div className="btn-prev flex button cursor-pointer text-center align-middle xl:gap-5 hover:text-[#ffffff]" onClick={this.previous}>
                   <BsArrowLeft size={30} /> PREV
               </div>
 
-              <div className="btn-next flex button cursor-pointer text-center align-middle xl:gap-5 hover:text-[#ffffffbe]" onClick={this.next}>
+              <div className="btn-next flex button cursor-pointer text-center align-middle xl:gap-5 hover:text-[#ffffff]" onClick={this.next}>
                   NEXT <BsArrowRight size={30} />
               </div>      
           </div>
