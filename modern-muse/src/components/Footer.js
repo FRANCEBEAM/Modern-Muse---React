@@ -5,8 +5,8 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'
 
 function Footer() {
   return (
-    <footer className='footer-container'>
-        <div className='wrapper bg-[#0F0F0F] h-[100vh] pt-10 px-4 lg:h-[80vh]'>
+    <footer className='footer-container bg-[#0F0F0F]'>
+        <div className='wrapper bg-[#0F0F0F] h-[100vh] pt-10 px-4 lg:h-[70vh] xl:w-[1280px] xl:m-auto'>
             <dive className="logo text-white">
                 <h1 className='text-2xl font-bold'>modern muse</h1>
             </dive> 
@@ -73,7 +73,7 @@ function Footer() {
                     </form>
                 </div>
             </div>
-            <div className='end-footer text-[#D4D4D4] mt-20 pt-20 border-t-gray-600 border-t-2 justify-center text-center'>
+            <div className='end-footer text-[#D4D4D4] mt-20 pt-20 border-t-gray-600 border-t-2 justify-center text-center lg:grid lg:grid-cols-3'>
                 <div className='1row-footer gap-5 flex text-center justify-center'>
                     <Link to="/">
                         Privacy Policy
@@ -82,10 +82,10 @@ function Footer() {
                         Site Map
                     </Link>
                 </div>
-                <div className='2row-footer pt-10 text-white'>
+                <div className='2row-footer pt-10 text-white lg:pt-0'>
                     <p>©2023 modernmuse. All rights reserved.</p>
                 </div>
-                <div className='3row-footer pt-10 flex gap-5 text-white justify-center text-center'>
+                <div className='3row-footer pt-10 flex gap-5 text-white justify-center text-center lg:pt-0'>
                    <FaFacebook size={30} />
                    <FaTwitter size={30} />
                    <FaInstagram size={30} />

@@ -16,7 +16,7 @@ function Navbar() {
             <div className='menu-icon absolute right-0 m-4 cursor-pointer lg:hidden text-white' onClick={handleClick}>
                 {click ? <FaTimes size={30} /> : <FaBars size={30}/>}
             </div>
-            <ul className={click ? "nav-menu active text-white justify-center absolute text-center top-[96px] bg-[#121212] w-full leading-[60px] transition-all duration-500 left-[0%] lg:bg-[unset] lg:text-black lg:flex lg:justify-end lg:top-0" : "nav-menu items-center text-sm text-white justify-center absolute w-full transition-all duration-500 top-[96px] leading-[60px] left-[-100%] text-center lg:left-[0%] lg:flex lg:justify-end lg:top-0"}>
+            <ul className={click ? "nav-menu active text-white justify-center absolute text-center top-[96px] bg-[#121212] w-full leading-[60px] transition-all duration-500 left-[0%] lg:bg-[unset] lg:text-black lg:flex lg:justify-end lg:top-0 text-sm" : "nav-menu items-center text-sm text-white justify-center absolute w-full transition-all duration-500 top-[96px] leading-[60px] left-[-100%] text-center lg:left-[0%] lg:flex lg:justify-end lg:top-0"}>
                 <li className='nav-item p-4'>
                     <NavLink to="/">
                         HOME
@@ -40,6 +40,13 @@ function Navbar() {
                 <li className='nav-item p-4'>
                     <NavLink to="/">
                         CONTACT US
+                    </NavLink>
+                </li>
+                <li className='nav-item p-4'>
+                    <NavLink to="/">
+                        <button className="px-3 bg-[#00A591] rounded-md font-bold hover:bg-[#00a592be] " type="button">
+                            BOOK CONSULTATION
+                        </button>
                     </NavLink>
                 </li>
             </ul>
