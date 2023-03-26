@@ -39,7 +39,7 @@ export default class PreviousNextMethods extends Component {
             {HeroCarousel.map(item=>(  
                 <div className="">
                   <div className="text-white mt-72 absolute px-4 z-40">
-                    <h1 className="text-5xl text-white font-bold w-80">{item.title}</h1>
+                    <h1 className="text-5xl text-white font-bold w-80 md:text-6xl md:w-96 lg:text-6xl lg:w-3/4">{item.title}</h1>
                     <p className="text-base mt-14 w-72 leading-7 min-[420px]:w-[360px] sm-[520px]:w-[460px]">{item.description}</p>
                   </div> 
   

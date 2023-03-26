@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <div className='navbar fixed w-full z-10'>
-        <div className='navbar-container flex h-24 items-center justify-between px-4 lg:max-w-[1200px] lg:relative lg:mx-auto z-10'>
+        <div className='navbar-container flex h-24 items-center justify-between px-4 lg:max-w-[1280px] lg:relative lg:mx-auto z-10'>
             <h1 className='navbar-logo font-bold text-2xl text-white'>modern muse</h1>
             <div className='menu-icon absolute right-0 m-4 cursor-pointer lg:hidden text-white' onClick={handleClick}>
                 {click ? <FaTimes size={30} /> : <FaBars size={30}/>}
